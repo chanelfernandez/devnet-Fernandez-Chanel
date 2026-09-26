@@ -1,1 +1,38 @@
+#=== Network Device Inventory ===
+#1. Add a device
+#2. View all devices
+#3. Count active vs inactive devices
+#4. Find a device by name
+#5. Exit
 
+print ("Midterm Practical Exam — Network Device Inventory Tool")
+print ("Student: Chanel Fernandez")
+
+
+devices = []
+
+def display_menu():
+    print ("====Network Device Inventory====")
+    print ("1. Add a device",
+           "2. View all devices",
+           "3. Count active vs. Inactve devices",
+           "4. Find a device by name",
+           "5. Exit")
+    choice = input(f"Choose your choice:")    
+ 
+display_menu()
+
+def add_device(device_list):
+    user_device = input("Enter your device name:")
+    print({user_device})
+   
+    ip = input("IP address:")
+    print ("Input your IP address: {}")
+    
+    status = (" Input status (Active/Inactive)")
+    print ("Input your status (Active/Inactive)")
+
+add_device (input)
+
+#def view_devices(device_list):
+    #list= []
